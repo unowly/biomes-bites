@@ -66,7 +66,8 @@ public static final Item AVOCADO = register("avocado",
             settings ->  new Item(settings.food(FoodList.CORN)));
 
     public static final Item TOMATO = register("tomato",
-            settings ->  new Item(settings.food(FoodList.TOMATO)));
+            settings ->  new BlockItem(BlockRegistry.TOMATO_CROP, settings
+                    .food(FoodList.TOMATO)));
 
     public static final Item LEEK = register("leek",
             settings ->  new Item(settings.food(FoodList.LEEK)));

@@ -3,6 +3,7 @@ package dev.unowly.block;
 import dev.unowly.BotaniaBites;
 import dev.unowly.block.custom.BlueberryBushBlock;
 import dev.unowly.block.custom.StrawberryBushBlock;
+import dev.unowly.block.custom.TomatoCropBlock;
 import net.minecraft.block.*;
 import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
@@ -20,15 +21,6 @@ import static net.minecraft.block.Blocks.createFlowerPotSettings;
 
 public class BlockRegistry {
     //FLOWERS
-    public static final Block STONE_FLOWER = register("stone_flower", TallFlowerBlock::new,
-        AbstractBlock.Settings.create()
-                .mapColor(MapColor.BROWN)
-                .sounds(BlockSoundGroup.STONE)
-                .offset(AbstractBlock.OffsetType.XZ)
-                .dynamicBounds()
-                .pistonBehavior(PistonBehavior.NORMAL), true);
-
-    public static final Block STONE_FLOWER_POT = register("stone_flower_pot", settings -> new FlowerPotBlock(STONE_FLOWER, settings), createFlowerPotSettings(), false);
 
     //BUSHES
     public static final Block BLUEBERRY_BUSH = registerBlockOnly("blueberry_bush",
@@ -40,6 +32,13 @@ public class BlockRegistry {
             StrawberryBushBlock::new,
             AbstractBlock.Settings
                     .copy(Blocks.SWEET_BERRY_BUSH).noCollision());
+
+    //CROPS
+    public static final Block  TOMATO_CROP = registerBlockOnly("tomato_crop",
+            TomatoCropBlock::new,
+            AbstractBlock.Settings
+                    .copy(Blocks.WHEAT));
+
 
 
     private static Block registerBlockOnly(String path, Function<AbstractBlock.Settings, Block> factory, AbstractBlock.Settings settings) {

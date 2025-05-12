@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cross",
   "textures": {
-    "cross": "botania-bites:block/strawberry_bush_stage1"
+    "cross": "botania-bites:block/tomato_crop_stage2"
   }
 }
