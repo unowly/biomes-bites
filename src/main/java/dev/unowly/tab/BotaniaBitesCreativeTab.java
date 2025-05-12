@@ -38,5 +38,14 @@ public class BotaniaBitesCreativeTab {
                     })
                     .build());
 
+    public static final ItemGroup BOTANIA_BITES_BLOCKS = Registry.register(Registries.ITEM_GROUP, Identifier.of(
+            "botania-bites-blocks", BotaniaBites.MOD_ID), FabricItemGroup.builder()
+            .icon(()-> new ItemStack(ItemRegistry.BANANA))
+            .displayName(Text.of("Botania & Bites Blocks"))
+            .entries((context, entries) -> {
+
+            })
+            .build());
+
     public static void init(){}
 }
