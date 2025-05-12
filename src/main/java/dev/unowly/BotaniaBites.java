@@ -3,6 +3,7 @@ package dev.unowly;
 import dev.unowly.block.BlockRegistry;
 import dev.unowly.item.ItemRegistry;
 import dev.unowly.tab.BotaniaBitesCreativeTab;
+import dev.unowly.world.gen.BotaniaBitesWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.util.Identifier;
@@ -18,6 +19,7 @@ public class BotaniaBites implements ModInitializer {
 		ItemRegistry.init();
 		BlockRegistry.init();
 		BotaniaBitesCreativeTab.init();
+		BotaniaBitesWorldGeneration.generateBotaniaBitesWorldGen();
 	}
 
 	public static Identifier id(String path) {
