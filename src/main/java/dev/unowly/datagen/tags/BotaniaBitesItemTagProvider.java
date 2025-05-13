@@ -16,6 +16,7 @@ public class BotaniaBitesItemTagProvider extends FabricTagProvider<Item> {
     public static final TagKey<Item> BOTANIA_BITES_FRUITS = TagKey.of(RegistryKeys.ITEM, Identifier.of(BotaniaBites.MOD_ID, "botania_bites_fruits"));
     public static final TagKey<Item> BOTANIA_BITES_CROPS = TagKey.of(RegistryKeys.ITEM, Identifier.of(BotaniaBites.MOD_ID, "botania_bites_crops"));
     public static final TagKey<Item> BOTANIA_BITES_BERRIES = TagKey.of(RegistryKeys.ITEM, Identifier.of(BotaniaBites.MOD_ID, "botania_bites_berries"));
+    public static final TagKey<Item> BOTANIA_BITES_SEEDS = TagKey.of(RegistryKeys.ITEM, Identifier.of(BotaniaBites.MOD_ID, "botania_bites_seeds"));
 
 
     public BotaniaBitesItemTagProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
@@ -41,6 +42,7 @@ public class BotaniaBitesItemTagProvider extends FabricTagProvider<Item> {
                 .add(ItemRegistry.CORN)
                 .add(ItemRegistry.TOMATO)
                 .add(ItemRegistry.LEEK)
+                .add(ItemRegistry.LEEK_SEEDS)
                 .add(ItemRegistry.LETTUCE);
 
         getOrCreateTagBuilder(BOTANIA_BITES_BERRIES)

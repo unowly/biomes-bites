@@ -2,7 +2,8 @@ package dev.unowly;
 
 import dev.unowly.block.BlockRegistry;
 import dev.unowly.item.ItemRegistry;
-import dev.unowly.tab.BotaniaBitesCreativeTab;
+import dev.unowly.tab.BotaniaBitesBlocksCreativeTab;
+import dev.unowly.tab.BotaniaBitesItemsCreativeTab;
 import dev.unowly.world.gen.BotaniaBitesWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
@@ -16,9 +17,11 @@ public class BotaniaBites implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ItemRegistry.init();
 		BlockRegistry.init();
-		BotaniaBitesCreativeTab.init();
+		ItemRegistry.init();
+
+		BotaniaBitesBlocksCreativeTab.init();
+		BotaniaBitesItemsCreativeTab.init();
 		BotaniaBitesWorldGeneration.generateBotaniaBitesWorldGen();
 	}
 

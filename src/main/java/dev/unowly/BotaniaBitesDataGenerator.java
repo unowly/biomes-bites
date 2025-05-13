@@ -1,5 +1,6 @@
 package dev.unowly;
 
+import dev.unowly.datagen.BotaniaBitesLootTableProvider;
 import dev.unowly.datagen.lang.*;
 import dev.unowly.datagen.tags.BotaniaBitesBlockTagProvider;
 import dev.unowly.datagen.tags.BotaniaBitesItemTagProvider;
@@ -16,6 +17,9 @@ public class BotaniaBitesDataGenerator implements DataGeneratorEntrypoint {
     @Override
     public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
         FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
+
+//LOOT TABLE PROVIDER
+        pack.addProvider(BotaniaBitesLootTableProvider::new);
 
 //REGISTRY PROVIDER
         pack.addProvider(BotaniaBitesRegistryDataGenerator::new);

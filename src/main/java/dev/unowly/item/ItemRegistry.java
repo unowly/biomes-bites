@@ -65,15 +65,23 @@ public static final Item AVOCADO = register("avocado",
     public static final Item CORN = register("corn",
             settings ->  new Item(settings.food(FoodList.CORN)));
 
+    public static final Item CORN_SEEDS = register("corn_seeds",
+            settings ->  new BlockItem(BlockRegistry.CORN_CROP, settings));
+
     public static final Item TOMATO = register("tomato",
-            settings ->  new BlockItem(BlockRegistry.TOMATO_CROP, settings
-                    .food(FoodList.TOMATO)));
+            settings ->  new BlockItem(BlockRegistry.TOMATO_CROP, settings.food(FoodList.TOMATO)));
 
     public static final Item LEEK = register("leek",
             settings ->  new Item(settings.food(FoodList.LEEK)));
 
+    public static final Item LEEK_SEEDS = register("leek_seeds",
+            settings ->  new BlockItem(BlockRegistry.LEEK_CROP, settings));
+
     public static final Item LETTUCE = register("lettuce",
             settings ->  new Item(settings.food(FoodList.LETTUCE)));
+
+    public static final Item LETTUCE_SEEDS = register("lettuce_seeds",
+            settings ->  new BlockItem(BlockRegistry.LETTUCE_CROP, settings));
 
 
     public static Item register(String name, Function<Item.Settings, Item> factory) {

@@ -2,10 +2,10 @@ package dev.unowly.block;
 
 import dev.unowly.BotaniaBites;
 import dev.unowly.block.custom.BlueberryBushBlock;
+import dev.unowly.block.custom.LeekCropBlock;
 import dev.unowly.block.custom.StrawberryBushBlock;
 import dev.unowly.block.custom.TomatoCropBlock;
 import net.minecraft.block.*;
-import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -16,8 +16,6 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 import java.util.function.Function;
-
-import static net.minecraft.block.Blocks.createFlowerPotSettings;
 
 public class BlockRegistry {
     //FLOWERS
@@ -34,10 +32,45 @@ public class BlockRegistry {
                     .copy(Blocks.SWEET_BERRY_BUSH).noCollision());
 
     //CROPS
+    public static final Block  CORN_CROP = registerBlockOnly("corn_crop",
+            TomatoCropBlock::new,
+            AbstractBlock.Settings
+                    .create()
+                    .nonOpaque()
+                    .noCollision()
+                    .ticksRandomly()
+                    .breakInstantly()
+                    .sounds(BlockSoundGroup.CROP));
+
     public static final Block  TOMATO_CROP = registerBlockOnly("tomato_crop",
             TomatoCropBlock::new,
             AbstractBlock.Settings
-                    .copy(Blocks.WHEAT));
+                    .create()
+                    .nonOpaque()
+                    .noCollision()
+                    .ticksRandomly()
+                    .breakInstantly()
+                    .sounds(BlockSoundGroup.CROP));
+
+    public static final Block LEEK_CROP = registerBlockOnly("leek_crop",
+            LeekCropBlock::new,
+            AbstractBlock.Settings
+                    .create()
+                    .nonOpaque()
+                    .noCollision()
+                    .ticksRandomly()
+                    .breakInstantly()
+                    .sounds(BlockSoundGroup.CROP));
+
+    public static final Block LETTUCE_CROP = registerBlockOnly("lettuce_crop",
+            LeekCropBlock::new,
+            AbstractBlock.Settings
+                    .create()
+                    .nonOpaque()
+                    .noCollision()
+                    .ticksRandomly()
+                    .breakInstantly()
+                    .sounds(BlockSoundGroup.CROP));
 
 
 
