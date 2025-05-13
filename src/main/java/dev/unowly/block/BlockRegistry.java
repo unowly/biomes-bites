@@ -1,10 +1,7 @@
 package dev.unowly.block;
 
 import dev.unowly.BotaniaBites;
-import dev.unowly.block.custom.BlueberryBushBlock;
-import dev.unowly.block.custom.LeekCropBlock;
-import dev.unowly.block.custom.StrawberryBushBlock;
-import dev.unowly.block.custom.TomatoCropBlock;
+import dev.unowly.block.custom.*;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -32,6 +29,16 @@ public class BlockRegistry {
                     .copy(Blocks.SWEET_BERRY_BUSH).noCollision());
 
     //CROPS
+    public static final Block  BELL_PEPPER_CROP = registerBlockOnly("bell_pepper_crop",
+            BellPepperCropBlock::new,
+            AbstractBlock.Settings
+                    .create()
+                    .nonOpaque()
+                    .noCollision()
+                    .ticksRandomly()
+                    .breakInstantly()
+                    .sounds(BlockSoundGroup.CROP));
+
     public static final Block  CORN_CROP = registerBlockOnly("corn_crop",
             TomatoCropBlock::new,
             AbstractBlock.Settings

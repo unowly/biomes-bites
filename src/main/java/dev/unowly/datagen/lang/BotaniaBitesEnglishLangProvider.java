@@ -14,6 +14,7 @@ public class BotaniaBitesEnglishLangProvider extends FabricLanguageProvider {
     @Override
     public void generateTranslations(RegistryWrapper.WrapperLookup registryLookup, TranslationBuilder translationBuilder) {
         translationBuilder.add("item.botania-bites.bell_pepper", "Bell Pepper");
+        translationBuilder.add("item.botania-bites.bell_pepper_seeds", "Bell Pepper Seeds");
         translationBuilder.add("item.botania-bites.corn", "Corn");
         translationBuilder.add("item.botania-bites.corn_seeds", "Corn Seeds");
         translationBuilder.add("item.botania-bites.tomato", "Tomato");
@@ -21,7 +22,6 @@ public class BotaniaBitesEnglishLangProvider extends FabricLanguageProvider {
         translationBuilder.add("item.botania-bites.leek_seeds", "Leek Seeds");
         translationBuilder.add("item.botania-bites.lettuce", "Lettuce");
         translationBuilder.add("item.botania-bites.lettuce_seeds", "Lettuce Seeds");
-        translationBuilder.add("item.botania-bites.radish", "Radish");
 
         translationBuilder.add("item.botania-bites.avocado", "Avocado");
         translationBuilder.add("item.botania-bites.banana", "Banana");

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "botania-bites:block/bell_pepper_crop_stage0"
+  }
+}

@@ -3,9 +3,9 @@
 	"id": "botania-bites",
 	"version": "${version}",
 	"name": "Biomes & Bites",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Botania & Bites adds lush new biomes, unique trees, and a wide variety of delicious food items - explore, harvest, and feast your way through a richer world!",
 	"authors": [
-		"Me!"
+		"unowly"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
