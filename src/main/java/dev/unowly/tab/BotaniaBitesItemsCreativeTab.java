@@ -36,6 +36,7 @@ public class BotaniaBitesItemsCreativeTab {
                         entries.add(ItemRegistry.LEEK);
                         entries.add(ItemRegistry.LETTUCE);
 //SEEDS
+                        entries.add(ItemRegistry.BELL_PEPPER_SEEDS);
                         entries.add(ItemRegistry.CORN_SEEDS);
                         entries.add(ItemRegistry.LEEK_SEEDS);
                         entries.add(ItemRegistry.LETTUCE_SEEDS);

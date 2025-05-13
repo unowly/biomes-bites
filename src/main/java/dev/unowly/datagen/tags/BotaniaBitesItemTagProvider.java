@@ -42,11 +42,16 @@ public class BotaniaBitesItemTagProvider extends FabricTagProvider<Item> {
                 .add(ItemRegistry.CORN)
                 .add(ItemRegistry.TOMATO)
                 .add(ItemRegistry.LEEK)
-                .add(ItemRegistry.LEEK_SEEDS)
                 .add(ItemRegistry.LETTUCE);
 
         getOrCreateTagBuilder(BOTANIA_BITES_BERRIES)
                 .add(ItemRegistry.BLUEBERRY)
                 .add(ItemRegistry.STRAWBERRY);
+
+        getOrCreateTagBuilder(BOTANIA_BITES_SEEDS)
+                .add(ItemRegistry.BELL_PEPPER_SEEDS)
+                .add(ItemRegistry.CORN_SEEDS)
+                .add(ItemRegistry.LEEK_SEEDS)
+                .add(ItemRegistry.LETTUCE_SEEDS);
     }
 }

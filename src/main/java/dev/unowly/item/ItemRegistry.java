@@ -62,6 +62,9 @@ public static final Item AVOCADO = register("avocado",
     public static final Item BELL_PEPPER = register("bell_pepper",
             settings ->  new Item(settings.food(FoodList.BELL_PEPPER)));
 
+    public static final Item BELL_PEPPER_SEEDS = register("bell_pepper_seeds",
+            settings ->  new BlockItem(BlockRegistry.BELL_PEPPER_CROP, settings));
+
     public static final Item CORN = register("corn",
             settings ->  new Item(settings.food(FoodList.CORN)));
 
