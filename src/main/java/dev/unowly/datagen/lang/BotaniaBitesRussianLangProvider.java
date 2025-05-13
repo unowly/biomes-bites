@@ -32,5 +32,10 @@ public class BotaniaBitesRussianLangProvider extends FabricLanguageProvider {
         translationBuilder.add("item.botania-bites.pineapple", "Ананас");
         translationBuilder.add("item.botania-bites.pomegranate", "Гранат");
         translationBuilder.add("item.botania-bites.strawberry", "Клубника");
+
+        translationBuilder.add("tag.item.botania-bites.botania_bites_fruits", "Botania & Bites Фрукты");
+        translationBuilder.add("tag.item.botania-bites.botania_bites_crops", "Botania & Bites Урожай");
+        translationBuilder.add("tag.item.botania-bites.botania_bites_berries", "Botania & Bites Ягоды");
+
     }
 }

@@ -10,12 +10,13 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
-public class BotaniaBitesCreativeTab {
+public class BotaniaBitesItemsCreativeTab {
     public static final ItemGroup BOTANIA_BITES_ITEMS = Registry.register(Registries.ITEM_GROUP, Identifier.of(
             "botania-bites-items", BotaniaBites.MOD_ID), FabricItemGroup.builder()
                     .icon(()-> new ItemStack(ItemRegistry.BANANA))
                     .displayName(Text.of("Botania & Bites Items"))
                     .entries((context, entries) -> {
+//FRUITS
                         entries.add(ItemRegistry.AVOCADO);
                         entries.add(ItemRegistry.BANANA);
                         entries.add(ItemRegistry.BLUEBERRY);
@@ -28,24 +29,19 @@ public class BotaniaBitesCreativeTab {
                         entries.add(ItemRegistry.PINEAPPLE);
                         entries.add(ItemRegistry.POMEGRANATE);
                         entries.add(ItemRegistry.STRAWBERRY);
-
+//CROPS
                         entries.add(ItemRegistry.BELL_PEPPER);
                         entries.add(ItemRegistry.CORN);
                         entries.add(ItemRegistry.TOMATO);
                         entries.add(ItemRegistry.LEEK);
                         entries.add(ItemRegistry.LETTUCE);
+//SEEDS
+                        entries.add(ItemRegistry.CORN_SEEDS);
+                        entries.add(ItemRegistry.LEEK_SEEDS);
+                        entries.add(ItemRegistry.LETTUCE_SEEDS);
 
                     })
                     .build());
-
-    public static final ItemGroup BOTANIA_BITES_BLOCKS = Registry.register(Registries.ITEM_GROUP, Identifier.of(
-            "botania-bites-blocks", BotaniaBites.MOD_ID), FabricItemGroup.builder()
-            .icon(()-> new ItemStack(ItemRegistry.BANANA))
-            .displayName(Text.of("Botania & Bites Blocks"))
-            .entries((context, entries) -> {
-
-            })
-            .build());
 
     public static void init(){}
 }

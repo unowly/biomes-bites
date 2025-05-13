@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "botania-bites:block/lettuce_crop_stage0"
+  }
+}

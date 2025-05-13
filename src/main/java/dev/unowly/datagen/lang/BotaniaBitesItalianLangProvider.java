@@ -32,6 +32,11 @@ public class BotaniaBitesItalianLangProvider extends FabricLanguageProvider {
         translationBuilder.add("item.botania-bites.pineapple", "Ananas");
         translationBuilder.add("item.botania-bites.pomegranate", "Melagrana");
         translationBuilder.add("item.botania-bites.strawberry", "Fragola");
+
+        translationBuilder.add("tag.item.botania-bites.botania_bites_fruits", "Botania & Bites Frutti");
+        translationBuilder.add("tag.item.botania-bites.botania_bites_crops", "Botania & Bites Colture");
+        translationBuilder.add("tag.item.botania-bites.botania_bites_berries", "Botania & Bites Bacche");
+
     }
 }
 
