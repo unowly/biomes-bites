@@ -16,6 +16,17 @@ public class BotaniaBitesItemsCreativeTab {
                     .icon(()-> new ItemStack(ItemRegistry.BANANA))
                     .displayName(Text.of("Botania & Bites Items"))
                     .entries((context, entries) -> {
+//FOOD
+                        entries.add(ItemRegistry.HAMBURGER);
+                        entries.add(ItemRegistry.CHEESEBURGER);
+                        entries.add(ItemRegistry.SANDWICH);
+                        entries.add(ItemRegistry.SALMON_SUSHI);
+                        entries.add(ItemRegistry.COD_SUSHI);
+                        entries.add(ItemRegistry.CHEESE_WHEEL);
+                        entries.add(ItemRegistry.CHEESE);
+                        entries.add(ItemRegistry.CHEESE_SLICE);
+                        entries.add(ItemRegistry.RAW_BACON);
+                        entries.add(ItemRegistry.COOKED_BACON);
 //FRUITS
                         entries.add(ItemRegistry.AVOCADO);
                         entries.add(ItemRegistry.BANANA);

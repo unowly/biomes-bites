@@ -3,6 +3,7 @@ package dev.unowly.item;
 import dev.unowly.BotaniaBites;
 import dev.unowly.block.BlockRegistry;
 import dev.unowly.list.FoodList;
+import net.minecraft.component.type.FoodComponent;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -10,14 +11,49 @@ import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 
 import java.util.function.Function;
 
 public class ItemRegistry {
 
+//BURGER
+    public static final Item HAMBURGER = register("hamburger",
+            settings ->  new Item(settings.food(FoodList.HAMBURGER).maxCount(16).rarity(Rarity.RARE)));
+
+    public static final Item CHEESEBURGER = register("cheeseburger",
+            settings ->  new Item(settings.food(FoodList.CHEESEBURGER).maxCount(16).rarity(Rarity.RARE)));
+
+//SANDWICH
+    public static final Item SANDWICH = register("sandwich",
+            settings ->  new Item(settings.food(FoodList.SANDWICH).maxCount(16)));
+
+//SUSHI
+    public static final Item SALMON_SUSHI = register("salmon_sushi",
+            settings ->  new Item(settings.food(FoodList.SALMON_SUSHI).maxCount(16)));
+
+    public static final Item COD_SUSHI = register("cod_sushi",
+            settings ->  new Item(settings.food(FoodList.COD_SUSHI).maxCount(16)));
+
+//CHEESE
+    public static final Item CHEESE_WHEEL = register("cheese_wheel",
+            settings -> new Item(settings.food(FoodList.CHEESE_WHEEL).maxCount(16)));
+
+    public static final Item CHEESE = register("cheese",
+            settings ->  new Item(settings.food(FoodList.CHEESE).maxCount(64)));
+
+    public static final Item CHEESE_SLICE = register("cheese_slice",
+            settings -> new Item(settings.food(FoodList.CHEESE_SLICE).maxCount(64)));
+
+//BACON
+    public static final Item RAW_BACON =register("raw_bacon",
+            settings -> new Item(settings.food(FoodList.RAW_BACON).maxCount(64)));
+    
+    public static final Item COOKED_BACON =register("cooked_bacon",
+            settings -> new Item(settings.food(FoodList.COOKED_BACON).maxCount(64)));
 
 //BUSHES
-public static final Item BLUEBERRY = register("blueberry",
+    public static final Item BLUEBERRY = register("blueberry",
         settings ->  new BlockItem(BlockRegistry.BLUEBERRY_BUSH, settings
                 .food(FoodList.BLUEBERRY)));
 

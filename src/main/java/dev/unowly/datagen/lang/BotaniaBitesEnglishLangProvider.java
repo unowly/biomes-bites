@@ -13,6 +13,18 @@ public class BotaniaBitesEnglishLangProvider extends FabricLanguageProvider {
 
     @Override
     public void generateTranslations(RegistryWrapper.WrapperLookup registryLookup, TranslationBuilder translationBuilder) {
+        translationBuilder.add("item.botania-bites.hamburger", "Hamburger");
+        translationBuilder.add("item.botania-bites.cheeseburger", "Cheeseburger");
+        translationBuilder.add("item.botania-bites.sandwich", "Sandwich");
+        translationBuilder.add("item.botania-bites.salmon_sushi", "Salmon Sushi");
+        translationBuilder.add("item.botania-bites.cod_sushi", "Cod Sushi");
+        translationBuilder.add("item.botania-bites.cheese_wheel", "Cheese Wheel");
+        translationBuilder.add("item.botania-bites.cheese", "Cheese");
+        translationBuilder.add("item.botania-bites.cheese_slice", "Cheese Slice");
+        translationBuilder.add("item.botania-bites.raw_bacon", "Raw Bacon");
+        translationBuilder.add("item.botania-bites.cooked_bacon", "Bacon");
+
+
         translationBuilder.add("item.botania-bites.bell_pepper", "Bell Pepper");
         translationBuilder.add("item.botania-bites.bell_pepper_seeds", "Bell Pepper Seeds");
         translationBuilder.add("item.botania-bites.corn", "Corn");
