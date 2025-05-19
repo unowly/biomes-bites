@@ -1,12 +1,12 @@
 package dev.unowly;
 
 import dev.unowly.block.BlockRegistry;
+import dev.unowly.datagen.util.BotaniaBitesLootTableModifier;
 import dev.unowly.item.ItemRegistry;
 import dev.unowly.tab.BotaniaBitesBlocksCreativeTab;
 import dev.unowly.tab.BotaniaBitesItemsCreativeTab;
 import dev.unowly.world.gen.BotaniaBitesWorldGeneration;
 import net.fabricmc.api.ModInitializer;
-
 import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -23,6 +23,7 @@ public class BotaniaBites implements ModInitializer {
 		BotaniaBitesBlocksCreativeTab.init();
 		BotaniaBitesItemsCreativeTab.init();
 		BotaniaBitesWorldGeneration.generateBotaniaBitesWorldGen();
+		BotaniaBitesLootTableModifier.mofifyLootTable();
 	}
 
 	public static Identifier id(String path) {
