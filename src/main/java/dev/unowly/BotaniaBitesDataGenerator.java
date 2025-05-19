@@ -1,11 +1,11 @@
 package dev.unowly;
 
 import dev.unowly.datagen.BotaniaBitesLootTableProvider;
+import dev.unowly.datagen.BotaniaBitesRecipeProvider;
+import dev.unowly.datagen.BotaniaBitesRegistryDataGenerator;
 import dev.unowly.datagen.lang.*;
 import dev.unowly.datagen.tags.BotaniaBitesBlockTagProvider;
 import dev.unowly.datagen.tags.BotaniaBitesItemTagProvider;
-import dev.unowly.datagen.BotaniaBitesRecipeProvider;
-import dev.unowly.datagen.BotaniaBitesRegistryDataGenerator;
 import dev.unowly.world.BotaniaBitesConfiguredFeatures;
 import dev.unowly.world.BotaniaBitesPlacedFeatures;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;

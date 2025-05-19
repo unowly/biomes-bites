@@ -22,8 +22,7 @@
 			"dev.unowly.BotaniaBitesClient"
 		],
 		"fabric-datagen": [
-			"dev.unowly.BotaniaBitesDataGenerator",
-			"dev.unowly.BotaniaBitesClientDataGenerator"
+			"dev.unowly.BotaniaBitesDataGenerator"
 		]
 	},
 	"mixins": [

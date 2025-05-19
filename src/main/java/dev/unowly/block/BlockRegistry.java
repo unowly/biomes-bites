@@ -2,7 +2,9 @@ package dev.unowly.block;
 
 import dev.unowly.BotaniaBites;
 import dev.unowly.block.custom.*;
-import net.minecraft.block.*;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
