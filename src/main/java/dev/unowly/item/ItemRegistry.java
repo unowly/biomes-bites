@@ -48,12 +48,12 @@ public class ItemRegistry {
 //BACON
     public static final Item RAW_BACON =register("raw_bacon",
             settings -> new Item(settings.food(FoodList.RAW_BACON).maxCount(64)));
-    
+
     public static final Item COOKED_BACON =register("cooked_bacon",
             settings -> new Item(settings.food(FoodList.COOKED_BACON).maxCount(64)));
 
 //BUSHES
-    public static final Item BLUEBERRY = register("blueberry",
+public static final Item BLUEBERRY = register("blueberry",
         settings ->  new BlockItem(BlockRegistry.BLUEBERRY_BUSH, settings
                 .food(FoodList.BLUEBERRY)));
 
