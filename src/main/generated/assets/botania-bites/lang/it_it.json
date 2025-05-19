@@ -1,0 +1,23 @@
+{
+  "item.botania-bites.avocado": "Avocado",
+  "item.botania-bites.banana": "Banana",
+  "item.botania-bites.bell_pepper": "Peperone",
+  "item.botania-bites.blueberry": "Mirtillo",
+  "item.botania-bites.cherry": "Ciliegia",
+  "item.botania-bites.corn": "Mais",
+  "item.botania-bites.grape": "Uva",
+  "item.botania-bites.kiwi": "Kiwi",
+  "item.botania-bites.leek": "Porro",
+  "item.botania-bites.lemon": "Limone",
+  "item.botania-bites.lettuce": "Lattuga",
+  "item.botania-bites.peach": "Pesca",
+  "item.botania-bites.pear": "Pera",
+  "item.botania-bites.pineapple": "Ananas",
+  "item.botania-bites.pomegranate": "Melagrana",
+  "item.botania-bites.radish": "Ravanello",
+  "item.botania-bites.strawberry": "Fragola",
+  "item.botania-bites.tomato": "Pomodoro",
+  "tag.item.botania-bites.botania_bites_berries": "Botania & Bites Bacche",
+  "tag.item.botania-bites.botania_bites_crops": "Botania & Bites Colture",
+  "tag.item.botania-bites.botania_bites_fruits": "Botania & Bites Frutti"
+}

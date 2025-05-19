@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:porkchop"
+  ],
+  "result": {
+    "count": 16,
+    "id": "botania-bites:raw_bacon"
+  }
+}

@@ -1,0 +1,21 @@
+// 1.21.5	-999999999-01-01T00:00:00	Biomes & Bites/BotaniaBitesRecipeProvider
+98ffcda5e32146d15456d3591e196233429c7bde data/botania-bites/advancement/recipes/food/cheese.json
+a45c7d6a46021767c42ed17ce9b05b1253214b1e data/botania-bites/advancement/recipes/food/cheese_slice.json
+d6450b05b77a7c9f8c3c0e30feb38884856090bb data/botania-bites/advancement/recipes/food/cheese_wheel_from_smelting_milk_bucket.json
+19e47a0d7baeeb7889a7f4319eb7cde40cb11b3f data/botania-bites/advancement/recipes/food/cheeseburger.json
+8921b26b4daa5745bbf65e5f96e0e7a22547f5cb data/botania-bites/advancement/recipes/food/cod_sushi.json
+e5f01411bff2c5bbd3da8e4ad55a03f3441515aa data/botania-bites/advancement/recipes/food/cooked_bacon_from_smelting_raw_bacon.json
+eb56135f3eb7984719eb911ede4273b473ad5ed4 data/botania-bites/advancement/recipes/food/hamburger.json
+f34d1328d570711b343c89611f7a32248f773122 data/botania-bites/advancement/recipes/food/raw_bacon.json
+35e631b61e068b0f14441e82f9c0c0336a2693d2 data/botania-bites/advancement/recipes/food/salmon_sushi.json
+9bdaaa470b77d37cd0a3b33ebe891ea96edf6b43 data/botania-bites/advancement/recipes/food/sandwich.json
+f49e7c610c59b2844e4714134fc245e15146b583 data/botania-bites/recipe/cheese.json
+1989cbd425257ebccdfccf42bb05793b15988f7b data/botania-bites/recipe/cheese_slice.json
+65e1861c4cfd8080d265dd14643fec066b7c9982 data/botania-bites/recipe/cheese_wheel_from_smelting_milk_bucket.json
+73ecfb26b54ea89650cca8fc72139fc5c30eaf08 data/botania-bites/recipe/cheeseburger.json
+e85e178bc86ab42badbdabd9e86663404fa368cc data/botania-bites/recipe/cod_sushi.json
+0a0722b9c328152b9cb049462ee19a8fe9a10646 data/botania-bites/recipe/cooked_bacon_from_smelting_raw_bacon.json
+e317902f4ce8638b8cefe6371280dfaf41b0131d data/botania-bites/recipe/hamburger.json
+23dfa9e7cc8a3775a749ff6f373c3419900f8c98 data/botania-bites/recipe/raw_bacon.json
+457372c128c7c143615b3d7e6ec9a7214f16ca3f data/botania-bites/recipe/salmon_sushi.json
+5aa6bf9ac62265f2083af505fabe9813d3c7c72a data/botania-bites/recipe/sandwich.json

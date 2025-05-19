@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 150,
+  "experience": 0.1,
+  "group": "cheese_wheel",
+  "ingredient": "minecraft:milk_bucket",
+  "result": {
+    "id": "botania-bites:cheese_wheel"
+  }
+}

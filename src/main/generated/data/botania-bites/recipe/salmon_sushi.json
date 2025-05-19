@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:seagrass",
+    "minecraft:salmon"
+  ],
+  "result": {
+    "count": 16,
+    "id": "botania-bites:salmon_sushi"
+  }
+}

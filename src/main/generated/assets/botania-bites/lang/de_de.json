@@ -1,0 +1,23 @@
+{
+  "item.botania-bites.avocado": "Avocado",
+  "item.botania-bites.banana": "Banane",
+  "item.botania-bites.bell_pepper": "Paprika",
+  "item.botania-bites.blueberry": "Blaubeere",
+  "item.botania-bites.cherry": "Kirsche",
+  "item.botania-bites.corn": "Mais",
+  "item.botania-bites.grape": "Traube",
+  "item.botania-bites.kiwi": "Kiwi",
+  "item.botania-bites.leek": "Lauch",
+  "item.botania-bites.lemon": "Zitrone",
+  "item.botania-bites.lettuce": "Kopfsalat",
+  "item.botania-bites.peach": "Pfirsich",
+  "item.botania-bites.pear": "Birne",
+  "item.botania-bites.pineapple": "Ananas",
+  "item.botania-bites.pomegranate": "Granatapfel",
+  "item.botania-bites.radish": "Radieschen",
+  "item.botania-bites.strawberry": "Erdbeere",
+  "item.botania-bites.tomato": "Tomate",
+  "tag.item.botania-bites.botania_bites_berries": "Botania & Bites Beeren",
+  "tag.item.botania-bites.botania_bites_crops": "Botania & Bites Feldfrüchte",
+  "tag.item.botania-bites.botania_bites_fruits": "Botania & Bites Früchte"
+}
