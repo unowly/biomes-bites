@@ -131,6 +131,11 @@ public class FoodList {
             .saturationModifier(0.3f)
             .build();
 
+    public static final FoodComponent RICE = new FoodComponent.Builder()
+            .nutrition(2)
+            .saturationModifier(0.3f)
+            .build();
+
     public static final FoodComponent LEEK = new FoodComponent.Builder()
             .nutrition(2)
             .saturationModifier(0.3f)

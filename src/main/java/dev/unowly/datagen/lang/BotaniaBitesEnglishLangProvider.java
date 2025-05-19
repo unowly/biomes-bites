@@ -30,6 +30,8 @@ public class BotaniaBitesEnglishLangProvider extends FabricLanguageProvider {
         translationBuilder.add("item.botania-bites.corn", "Corn");
         translationBuilder.add("item.botania-bites.corn_seeds", "Corn Seeds");
         translationBuilder.add("item.botania-bites.tomato", "Tomato");
+        translationBuilder.add("item.botania-bites.rice", "Rice");
+        translationBuilder.add("item.botania-bites.rice_seeds", "Rice Seeds");
         translationBuilder.add("item.botania-bites.leek", "Leek");
         translationBuilder.add("item.botania-bites.leek_seeds", "Leek Seeds");
         translationBuilder.add("item.botania-bites.lettuce", "Lettuce");

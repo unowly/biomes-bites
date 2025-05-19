@@ -45,5 +45,10 @@ public class BotaniaBitesLootTableProvider extends FabricBlockLootTableProvider 
                 .with(ItemEntry.builder(ItemRegistry.BELL_PEPPER))
                 .with(ItemEntry.builder(ItemRegistry.BELL_PEPPER_SEEDS)))));
 
+        addDrop(BlockRegistry.RICE_CROP, LootTable.builder().pool(addSurvivesExplosionCondition(ItemRegistry.RICE, LootPool.builder()
+                .rolls(new UniformLootNumberProvider(new ConstantLootNumberProvider(2), new ConstantLootNumberProvider(3)))
+                .with(ItemEntry.builder(ItemRegistry.RICE))
+                .with(ItemEntry.builder(ItemRegistry.RICE_SEEDS)))));
+
     }
 }

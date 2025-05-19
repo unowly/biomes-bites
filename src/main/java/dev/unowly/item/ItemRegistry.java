@@ -121,6 +121,12 @@ public static final Item AVOCADO = register("avocado",
     public static final Item LETTUCE_SEEDS = register("lettuce_seeds",
             settings ->  new BlockItem(BlockRegistry.LETTUCE_CROP, settings));
 
+    public static final Item RICE = register("rice",
+            settings ->  new Item(settings.food(FoodList.RICE)));
+
+    public static final Item RICE_SEEDS = register("rice_seeds",
+            settings ->  new BlockItem(BlockRegistry.RICE_CROP, settings));
+
 
     public static Item register(String name, Function<Item.Settings, Item> factory) {
         RegistryKey<Item> registryKey = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(BotaniaBites.MOD_ID, name));
