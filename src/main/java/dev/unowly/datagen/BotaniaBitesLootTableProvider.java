@@ -4,6 +4,7 @@ import dev.unowly.block.BlockRegistry;
 import dev.unowly.item.ItemRegistry;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
+import net.minecraft.block.Block;
 import net.minecraft.loot.LootPool;
 import net.minecraft.loot.LootTable;
 import net.minecraft.loot.entry.ItemEntry;
@@ -44,6 +45,15 @@ public class BotaniaBitesLootTableProvider extends FabricBlockLootTableProvider 
                 .rolls(new UniformLootNumberProvider(new ConstantLootNumberProvider(2), new ConstantLootNumberProvider(3)))
                 .with(ItemEntry.builder(ItemRegistry.BELL_PEPPER))
                 .with(ItemEntry.builder(ItemRegistry.BELL_PEPPER_SEEDS)))));
+
+        //Palm Drops
+        addDrop(BlockRegistry.PALM_LOG);
+        addDrop(BlockRegistry.STRIPPED_PALM_LOG);
+        addDrop(BlockRegistry.PALM_WOOD);
+        addDrop(BlockRegistry.STRIPPED_PALM_WOOD);
+        addDrop(BlockRegistry.PALM_PLANK);
+        addDrop(BlockRegistry.PALM_SAPLING);
+        addDrop(BlockRegistry.PALM_LEAVES,leavesDrops(BlockRegistry.PALM_LEAVES,BlockRegistry.PALM_SAPLING, 0.0625F));
 
     }
 }

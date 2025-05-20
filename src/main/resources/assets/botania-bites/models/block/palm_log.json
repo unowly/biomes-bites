@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "botania-bites:block/palm_log_top",
+    "side": "botania-bites:block/palm_log"
+  }
+}

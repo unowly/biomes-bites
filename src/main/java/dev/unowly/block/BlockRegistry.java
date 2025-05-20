@@ -2,9 +2,8 @@ package dev.unowly.block;
 
 import dev.unowly.BotaniaBites;
 import dev.unowly.block.custom.*;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
+import dev.unowly.world.tree.BotaniaBitesSaplingGenerators;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -80,6 +79,45 @@ public class BlockRegistry {
                     .ticksRandomly()
                     .breakInstantly()
                     .sounds(BlockSoundGroup.CROP));
+
+    //Palm
+    public static final Block PALM_LOG = registerBlockOnly(
+            "palm_log",
+            PillarBlock::new,
+            AbstractBlock.Settings.copy(Blocks.JUNGLE_LOG)
+        );
+    public static final Block STRIPPED_PALM_LOG = registerBlockOnly(
+            "stripped_palm_log",
+            PillarBlock::new,
+            AbstractBlock.Settings.copy(Blocks.STRIPPED_JUNGLE_LOG)
+    );
+    public static final Block PALM_WOOD = registerBlockOnly(
+            "palm_block",
+            PillarBlock::new,
+            AbstractBlock.Settings.copy(Blocks.JUNGLE_WOOD)
+    );
+    public static final Block STRIPPED_PALM_WOOD = registerBlockOnly(
+            "stripped_palm_wood",
+            PillarBlock::new,
+            AbstractBlock.Settings.copy(Blocks.STRIPPED_JUNGLE_WOOD)
+    );
+    public static final Block PALM_LEAVES = registerBlockOnly(
+            "palm_leaves",
+            PillarBlock::new,
+            AbstractBlock.Settings.copy(Blocks.JUNGLE_LEAVES)
+    );
+    public static final Block PALM_PLANK = registerBlockOnly(
+            "palm_plank",
+            PillarBlock::new,
+            AbstractBlock.Settings.copy(Blocks.JUNGLE_PLANKS)
+    );
+
+    public static final Block PALM_SAPLING = registerBlockOnly(
+            "palm_sapling",
+            settings -> new PalmSaplingBlock(BotaniaBitesSaplingGenerators.PALM, settings, Blocks.SAND),
+            AbstractBlock.Settings.copy(Blocks.OAK_SAPLING)
+    );
+
 
 
 

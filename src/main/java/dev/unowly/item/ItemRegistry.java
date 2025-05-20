@@ -3,6 +3,7 @@ package dev.unowly.item;
 import dev.unowly.BotaniaBites;
 import dev.unowly.block.BlockRegistry;
 import dev.unowly.list.FoodList;
+import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -120,6 +121,36 @@ public static final Item AVOCADO = register("avocado",
 
     public static final Item LETTUCE_SEEDS = register("lettuce_seeds",
             settings ->  new BlockItem(BlockRegistry.LETTUCE_CROP, settings));
+
+    //Palm
+    public static final Item PALM_LOG = register(
+            "palm_log",
+            settings -> new BlockItem(BlockRegistry.PALM_LOG, settings)
+    );
+    public static final Item STRIPPED_PALM_LOG = register(
+            "stripped_palm_log",
+            settings -> new BlockItem(BlockRegistry.STRIPPED_PALM_LOG, settings)
+    );
+    public static final Item PALM_WOOD = register(
+            "palm_wood",
+            settings -> new BlockItem(BlockRegistry.PALM_WOOD, settings)
+    );
+    public static final Item STRIPPED_PALM_WOOD = register(
+            "stripped_palm_wood",
+            settings -> new BlockItem(BlockRegistry.STRIPPED_PALM_WOOD, settings)
+    );
+    public static final Item PALM_PLANKS = register(
+            "palm_planks",
+            settings -> new BlockItem(BlockRegistry.PALM_PLANK, settings)
+    );
+    public static final Item PALM_LEAVES = register(
+            "palm_leaves",
+            settings -> new BlockItem(BlockRegistry.PALM_LEAVES, settings)
+    );
+    public static final Item PALM_SAPLING = register(
+            "palm_sapling",
+            settings -> new BlockItem(BlockRegistry.PALM_SAPLING, settings)
+    );
 
 
     public static Item register(String name, Function<Item.Settings, Item> factory) {
