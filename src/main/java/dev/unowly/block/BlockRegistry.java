@@ -80,6 +80,16 @@ public class BlockRegistry {
                     .breakInstantly()
                     .sounds(BlockSoundGroup.CROP));
 
+    public static final Block  RICE_CROP = registerBlockOnly("rice_crop",
+            RiceCropBlock::new,
+            AbstractBlock.Settings
+                    .create()
+                    .nonOpaque()
+                    .noCollision()
+                    .ticksRandomly()
+                    .breakInstantly()
+                    .sounds(BlockSoundGroup.CROP));
+
     //Palm
     public static final Block PALM_LOG = registerBlockOnly(
             "palm_log",

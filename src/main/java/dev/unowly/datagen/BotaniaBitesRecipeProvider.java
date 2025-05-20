@@ -86,6 +86,7 @@ public class BotaniaBitesRecipeProvider extends FabricRecipeProvider {
                 createShapeless(RecipeCategory.FOOD, ItemRegistry.SALMON_SUSHI, 16)
                         .input(Items.SEAGRASS)
                         .input(Items.SALMON)
+                        .input(ItemRegistry.RICE)
                         .criterion(hasItem(Items.SEAGRASS), conditionsFromItem(Items.SEAGRASS))
                         .criterion(hasItem(Items.SALMON), conditionsFromItem(Items.SALMON))
                         .offerTo(exporter);
@@ -93,6 +94,7 @@ public class BotaniaBitesRecipeProvider extends FabricRecipeProvider {
                 createShapeless(RecipeCategory.FOOD, ItemRegistry.COD_SUSHI, 16)
                         .input(Items.SEAGRASS)
                         .input(Items.COD)
+                        .input(ItemRegistry.RICE)
                         .criterion(hasItem(Items.SEAGRASS), conditionsFromItem(Items.SEAGRASS))
                         .criterion(hasItem(Items.SALMON), conditionsFromItem(Items.SALMON))
                         .offerTo(exporter);

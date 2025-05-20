@@ -122,6 +122,12 @@ public static final Item AVOCADO = register("avocado",
     public static final Item LETTUCE_SEEDS = register("lettuce_seeds",
             settings ->  new BlockItem(BlockRegistry.LETTUCE_CROP, settings));
 
+    public static final Item RICE = register("rice",
+            settings ->  new Item(settings.food(FoodList.RICE)));
+
+    public static final Item RICE_SEEDS = register("rice_seeds",
+            settings ->  new BlockItem(BlockRegistry.RICE_CROP, settings));
+
     //Palm
     public static final Item PALM_LOG = register(
             "palm_log",

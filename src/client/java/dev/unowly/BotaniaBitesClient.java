@@ -14,6 +14,7 @@ public class BotaniaBitesClient implements ClientModInitializer {
 		BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), BlockRegistry.BLUEBERRY_BUSH, BlockRegistry.STRAWBERRY_BUSH);
 
 //CROPS
-		BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), BlockRegistry.TOMATO_CROP, BlockRegistry.LEEK_CROP, BlockRegistry.LETTUCE_CROP, BlockRegistry.CORN_CROP, BlockRegistry.BELL_PEPPER_CROP);
+		BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), BlockRegistry.TOMATO_CROP, BlockRegistry.LEEK_CROP,
+				BlockRegistry.LETTUCE_CROP, BlockRegistry.CORN_CROP, BlockRegistry.BELL_PEPPER_CROP, BlockRegistry.RICE_CROP);
 	}
 }
