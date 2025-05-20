@@ -41,44 +41,50 @@ public class PalmFoliagePlacer extends FoliagePlacer {
     ) {
         BlockPos center = treeNode.getCenter().up(offset);
 
-        if (offset == foliageHeight) {
-            BlockPos pos = treeNode.getCenter();
-            if (!(pos.getX() % 2 == 0 && pos.getZ() % 2 == 0)) {
-                placeFoliageBlock(world, placer, random, config, center);
-                placeFoliageBlock(world, placer, random, config, center.up());
-                placeFoliageBlock(world, placer, random, config, center.add(1,1,0));
-                placeFoliageBlock(world, placer, random, config, center.add(0,1,1));
-                placeFoliageBlock(world, placer, random, config, center.add(-1,1,0));
-                placeFoliageBlock(world, placer, random, config, center.add(0,1,-1));
+        placeFoliageBlock(world, placer, random, config, center);
+        placeFoliageBlock(world, placer, random, config, center.up());
+        placeFoliageBlock(world, placer, random, config, center.add(1, 1, 0));
+        placeFoliageBlock(world, placer, random, config, center.add(0, 1, 1));
+        placeFoliageBlock(world, placer, random, config, center.add(-1, 1, 0));
+        placeFoliageBlock(world, placer, random, config, center.add(0, 1, -1));
 
-                placeFoliageBlock(world, placer, random, config, center.add(1,0,0));
-                placeFoliageBlock(world, placer, random, config, center.add(0,0,1));
-                placeFoliageBlock(world, placer, random, config, center.add(0,0,-1));
-                placeFoliageBlock(world, placer, random, config, center.add(-1,0,0));
-                placeFoliageBlock(world, placer, random, config, center.add(1,0,-1));
-                placeFoliageBlock(world, placer, random, config, center.add(1,0,1));
-                placeFoliageBlock(world, placer, random, config, center.add(-1,0,1));
-                placeFoliageBlock(world, placer, random, config, center.add(-1,0,-1));
+        placeFoliageBlock(world, placer, random, config, center.add(1, 0, 0));
+        placeFoliageBlock(world, placer, random, config, center.add(0, 0, 1));
+        placeFoliageBlock(world, placer, random, config, center.add(0, 0, -1));
+        placeFoliageBlock(world, placer, random, config, center.add(-1, 0, 0));
+        placeFoliageBlock(world, placer, random, config, center.add(1, 0, -1));
+        placeFoliageBlock(world, placer, random, config, center.add(1, 0, 1));
+        placeFoliageBlock(world, placer, random, config, center.add(-1, 0, 1));
+        placeFoliageBlock(world, placer, random, config, center.add(-1, 0, -1));
 
-                placeFoliageBlock(world, placer, random, config, center.add(2,0,0));
-                placeFoliageBlock(world, placer, random, config, center.add(0,0,2));
-                placeFoliageBlock(world, placer, random, config, center.add(0,0,-2));
-                placeFoliageBlock(world, placer, random, config, center.add(-2,0,0));
+        placeFoliageBlock(world, placer, random, config, center.add(2, 0, 0));
+        placeFoliageBlock(world, placer, random, config, center.add(0, 0, 2));
+        placeFoliageBlock(world, placer, random, config, center.add(0, 0, -2));
+        placeFoliageBlock(world, placer, random, config, center.add(-2, 0, 0));
 
-                placeFoliageBlock(world, placer, random, config, center.add(-3,-1,0));
-                placeFoliageBlock(world, placer, random, config, center.add(3,-1,0));
-                placeFoliageBlock(world, placer, random, config, center.add(0,-1,-3));
-                placeFoliageBlock(world, placer, random, config, center.add(0,-1,3));
+        placeFoliageBlock(world, placer, random, config, center.add(-3, -1, 0));
+        placeFoliageBlock(world, placer, random, config, center.add(3, -1, 0));
+        placeFoliageBlock(world, placer, random, config, center.add(0, -1, -3));
+        placeFoliageBlock(world, placer, random, config, center.add(0, -1, 3));
 
-                placeFoliageBlock(world, placer, random, config, center.add(2,-1,2));
-                placeFoliageBlock(world, placer, random, config, center.add(-2,-1,2));
-                placeFoliageBlock(world, placer, random, config, center.add(2,-1,-2));
-                placeFoliageBlock(world, placer, random, config, center.add(-2,-1,-2));
+        placeFoliageBlock(world, placer, random, config, center.add(2, -1, 2));
+        placeFoliageBlock(world, placer, random, config, center.add(-2, -1, 2));
+        placeFoliageBlock(world, placer, random, config, center.add(2, -1, -2));
+        placeFoliageBlock(world, placer, random, config, center.add(-2, -1, -2));
 
+
+        if (trunkHeight > 6) {
+            int[][] lowerLeafPoints = new int[][]{
+                    {3, 3}, {-3, 3}, {3, -3}, {-3, -3}, {4, 0}, {0, 4}, {-4, 0}, {0, -4},
+            };
+
+            int numberOfLowerLeafs = random.nextInt(lowerLeafPoints.length - 2);
+
+            for (int i = 0; i < numberOfLowerLeafs; i++) {
+                int selectLeaf = random.nextInt(lowerLeafPoints.length - 1);
+                placeFoliageBlock(world, placer, random, config, center.add(lowerLeafPoints[selectLeaf][0], -2, lowerLeafPoints[selectLeaf][1]));
             }
         }
-
-
 
 
     }
@@ -96,7 +102,6 @@ public class PalmFoliagePlacer extends FoliagePlacer {
 
         return true;
     }
-
 
 
     @Override
