@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "botania-bites:cheese"
+  ],
+  "result": {
+    "count": 16,
+    "id": "botania-bites:cheese_slice"
+  }
+}

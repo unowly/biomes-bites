@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "group": "cooked_bacon",
+  "ingredient": "botania-bites:raw_bacon",
+  "result": {
+    "id": "botania-bites:cooked_bacon"
+  }
+}
