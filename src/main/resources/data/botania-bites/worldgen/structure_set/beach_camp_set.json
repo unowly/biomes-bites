@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "botania-bites:beach/beach_camp",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 30,
+    "separation": 10,
+    "salt": 123456789
+  }
+}
