@@ -3,7 +3,8 @@
   "category": "misc",
   "ingredients": [
     "minecraft:seagrass",
-    "minecraft:salmon"
+    "minecraft:salmon",
+    "botania-bites:rice"
   ],
   "result": {
     "count": 16,
