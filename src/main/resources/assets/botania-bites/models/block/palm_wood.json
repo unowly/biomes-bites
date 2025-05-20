@@ -1,5 +1,5 @@
 {
-  "parent": "block/cube_column",
+  "parent": "minecraft:block/cube_all",
   "textures": {
     "all": "botania-bites:block/palm_wood"
   }

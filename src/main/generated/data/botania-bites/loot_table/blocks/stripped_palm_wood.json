@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "botania-bites:stripped_palm_wood.json"
+          "name": "botania-bites:stripped_palm_wood"
         }
       ],
       "rolls": 1.0

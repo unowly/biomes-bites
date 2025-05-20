@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "parent": "botania-bites:block/stripped_palm_wood"
+    "model": "botania-bites:item/stripped_palm_wood"
   }
 }
