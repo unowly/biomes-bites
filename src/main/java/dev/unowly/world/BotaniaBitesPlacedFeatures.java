@@ -20,6 +20,7 @@ public class BotaniaBitesPlacedFeatures {
 
     public static void bootstrap(Registerable<PlacedFeature> context) {
         var configuredFeatures = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
+
 //BUSHES
         register(context, STRAWBERRY_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(BotaniaBitesConfiguredFeatures.STRAWBERRY_BUSH_KEY),
                 RarityFilterPlacementModifier.of(32), SquarePlacementModifier.of(), PlacedFeatures.MOTION_BLOCKING_HEIGHTMAP,
@@ -31,7 +32,7 @@ public class BotaniaBitesPlacedFeatures {
 
         register(context, PALM_TREE_PLACED_KEY, configuredFeatures.getOrThrow(BotaniaBitesConfiguredFeatures.PALM_TREE_KEY),
                 VegetationPlacedFeatures.treeModifiersWithWouldSurvive(
-                        NoiseBasedCountPlacementModifier.of(11, 1, 0.05F),
+                        RarityFilterPlacementModifier.of(10),
                         BlockRegistry.PALM_SAPLING
                 )
         );
