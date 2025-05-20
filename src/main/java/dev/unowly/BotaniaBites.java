@@ -5,7 +5,8 @@ import dev.unowly.datagen.util.BotaniaBitesLootTableModifier;
 import dev.unowly.item.ItemRegistry;
 import dev.unowly.tab.BotaniaBitesBlocksCreativeTab;
 import dev.unowly.tab.BotaniaBitesItemsCreativeTab;
-import dev.unowly.world.feature.foliage.ModFoliagePlacerTypes;
+import dev.unowly.world.feature.foliage.BotaniaBitesFoliagePlacerTypes;
+import dev.unowly.world.feature.trunk.BotaniaBitesTrunkPlacerTypes;
 import dev.unowly.world.gen.BotaniaBitesWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
@@ -23,7 +24,8 @@ public class BotaniaBites implements ModInitializer {
 		BlockRegistry.init();
 		ItemRegistry.init();
 
-		ModFoliagePlacerTypes.register();
+		BotaniaBitesFoliagePlacerTypes.register();
+		BotaniaBitesTrunkPlacerTypes.register();
 
 		BotaniaBitesBlocksCreativeTab.init();
 		BotaniaBitesItemsCreativeTab.init();

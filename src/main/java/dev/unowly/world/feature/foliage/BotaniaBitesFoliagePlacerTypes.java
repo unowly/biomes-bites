@@ -7,7 +7,7 @@ import net.minecraft.world.gen.foliage.FoliagePlacerType;
 import dev.unowly.BotaniaBites; // oder dein Mod-Hauptklasse
 
 
-public class ModFoliagePlacerTypes {
+public class BotaniaBitesFoliagePlacerTypes {
     public static final FoliagePlacerType<PalmFoliagePlacer> PALM_FOLIAGE_PLACER =
             Registry.register(
                     Registries.FOLIAGE_PLACER_TYPE,

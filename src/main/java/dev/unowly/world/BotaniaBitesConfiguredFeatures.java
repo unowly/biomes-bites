@@ -3,6 +3,7 @@ package dev.unowly.world;
 import dev.unowly.BotaniaBites;
 import dev.unowly.block.BlockRegistry;
 import dev.unowly.world.feature.foliage.PalmFoliagePlacer;
+import dev.unowly.world.feature.trunk.PalmTrunkPlacer;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.SweetBerryBushBlock;
 import net.minecraft.registry.Registerable;
@@ -44,7 +45,7 @@ public class BotaniaBitesConfiguredFeatures {
        //Palm Tree
         register(context, PALM_TREE_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
                 BlockStateProvider.of(BlockRegistry.PALM_LOG),
-                new BendingTrunkPlacer(2,3,5,7,ConstantIntProvider.create(1)),
+                new PalmTrunkPlacer(2,3,5),
                 BlockStateProvider.of(BlockRegistry.PALM_LEAVES),
                 new PalmFoliagePlacer(ConstantIntProvider.create(1),ConstantIntProvider.create(1)),
                 new TwoLayersFeatureSize(0, 0, 0)
