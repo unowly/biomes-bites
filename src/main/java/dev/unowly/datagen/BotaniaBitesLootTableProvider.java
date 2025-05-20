@@ -53,7 +53,7 @@ public class BotaniaBitesLootTableProvider extends FabricBlockLootTableProvider 
         addDrop(BlockRegistry.STRIPPED_PALM_WOOD);
         addDrop(BlockRegistry.PALM_PLANKS);
         addDrop(BlockRegistry.PALM_SAPLING);
-        addDrop(BlockRegistry.PALM_LEAVES,leavesDrops(BlockRegistry.PALM_LEAVES,BlockRegistry.PALM_SAPLING, 0.0625F));
+        addDrop(BlockRegistry.PALM_LEAVES, leavesDrops(BlockRegistry.PALM_LEAVES,BlockRegistry.PALM_SAPLING, 0.0625F));
 
     }
 }
