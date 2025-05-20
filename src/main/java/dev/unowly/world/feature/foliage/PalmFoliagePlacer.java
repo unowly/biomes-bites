@@ -75,9 +75,6 @@ public class PalmFoliagePlacer extends FoliagePlacer {
                 placeFoliageBlock(world, placer, random, config, center.add(2,-1,-2));
                 placeFoliageBlock(world, placer, random, config, center.add(-2,-1,-2));
 
-
-
-
             }
         }
 

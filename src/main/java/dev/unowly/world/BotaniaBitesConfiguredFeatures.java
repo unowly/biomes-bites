@@ -44,7 +44,7 @@ public class BotaniaBitesConfiguredFeatures {
        //Palm Tree
         register(context, PALM_TREE_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
                 BlockStateProvider.of(BlockRegistry.PALM_LOG),
-                new BendingTrunkPlacer(2,3,5,6,ConstantIntProvider.create(1)),
+                new BendingTrunkPlacer(2,3,5,7,ConstantIntProvider.create(1)),
                 BlockStateProvider.of(BlockRegistry.PALM_LEAVES),
                 new PalmFoliagePlacer(ConstantIntProvider.create(1),ConstantIntProvider.create(1)),
                 new TwoLayersFeatureSize(0, 0, 0)
