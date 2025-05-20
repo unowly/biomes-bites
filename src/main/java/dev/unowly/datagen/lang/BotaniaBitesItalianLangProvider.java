@@ -37,6 +37,15 @@ public class BotaniaBitesItalianLangProvider extends FabricLanguageProvider {
         translationBuilder.add("tag.item.botania-bites.botania_bites_crops", "Botania & Bites Colture");
         translationBuilder.add("tag.item.botania-bites.botania_bites_berries", "Botania & Bites Bacche");
 
+        translationBuilder.add("item.botania-bites.palm_log", "Стовбур пальмы");
+        translationBuilder.add("item.botania-bites.stripped_palm_log", "Очищенный ствол пальмы");
+        translationBuilder.add("item.botania-bites.palm_wood", "Пальмовое дерево");
+        translationBuilder.add("item.botania-bites.stripped_palm_wood", "Очищенное пальмовое дерево");
+        translationBuilder.add("item.botania-bites.palm_leaves", "Пальмовые листья");
+        translationBuilder.add("item.botania-bites.palm_planks", "Пальмовые доски");
+        translationBuilder.add("item.botania-bites.palm_sapling", "Саженец пальмы");
+
+
     }
 }
 

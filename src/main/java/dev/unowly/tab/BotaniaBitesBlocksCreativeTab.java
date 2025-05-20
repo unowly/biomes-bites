@@ -16,6 +16,13 @@ public class BotaniaBitesBlocksCreativeTab {
             .icon(()-> new ItemStack(ItemRegistry.BANANA))
             .displayName(Text.of("Botania & Bites Blocks"))
             .entries((context, entries) -> {
+                //Palm Blocks
+                entries.add(ItemRegistry.PALM_LEAVES);
+                entries.add(ItemRegistry.PALM_PLANKS);
+                entries.add(ItemRegistry.PALM_LOG);
+                entries.add(ItemRegistry.PALM_WOOD);
+                entries.add(ItemRegistry.STRIPPED_PALM_WOOD);
+                entries.add(ItemRegistry.STRIPPED_PALM_LOG);
 
             })
             .build());

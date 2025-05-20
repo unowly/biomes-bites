@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "axis=y": { "model": "botania-bites:block/stripped_palm_wood" },
+    "axis=x": { "model": "botania-bites:block/stripped_palm_wood", "x": 90, "y": 90 },
+    "axis=z": { "model": "botania-bites:block/stripped_palm_wood", "x": 90 }
+  }
+}

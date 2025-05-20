@@ -1,3 +1,6 @@
 {
-  "parent": "botania-bites:block/palm_log"
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "botania-bites:item/palm_log"
+  }
 }

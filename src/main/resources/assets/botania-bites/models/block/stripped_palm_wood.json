@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "all": "botania-bites:block/stripped_palm_wood"
+  }
+}

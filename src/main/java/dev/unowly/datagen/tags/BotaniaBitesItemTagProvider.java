@@ -57,6 +57,6 @@ public class BotaniaBitesItemTagProvider extends FabricTagProvider<Item> {
                 .add(ItemRegistry.LETTUCE_SEEDS);
 
         getOrCreateTagBuilder(ItemTags.PLANKS)              //already gets basics Crafting recepies which are not bound to a specific type of plank
-                .add(BlockRegistry.PALM_PLANK.asItem());
+                .add(BlockRegistry.PALM_PLANKS.asItem());
     }
 }

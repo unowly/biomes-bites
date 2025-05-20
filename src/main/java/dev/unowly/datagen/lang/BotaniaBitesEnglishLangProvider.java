@@ -53,5 +53,13 @@ public class BotaniaBitesEnglishLangProvider extends FabricLanguageProvider {
         translationBuilder.add("tag.item.botania-bites.botania_bites_berries", "Botania & Bites Berries");
         translationBuilder.add("tag.item.botania-bites.botania_bites_seeds", "Botania & Bites Seeds");
 
+        translationBuilder.add("item.botania-bites.palm_log", "Palm Log");
+        translationBuilder.add("item.botania-bites.stripped_palm_log", "Stripped Palm Log");
+        translationBuilder.add("item.botania-bites.palm_wood", "Palm Wood");
+        translationBuilder.add("item.botania-bites.stripped_palm_wood", "Stripped Palm Wood");
+        translationBuilder.add("item.botania-bites.palm_leaves", "Palm Leaves");
+        translationBuilder.add("item.botania-bites.palm_planks", "Palm Planks");
+        translationBuilder.add("item.botania-bites.palm_sapling", "Palm Sapling");
+
     }
 }

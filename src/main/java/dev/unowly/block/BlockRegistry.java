@@ -92,7 +92,7 @@ public class BlockRegistry {
             AbstractBlock.Settings.copy(Blocks.STRIPPED_JUNGLE_LOG)
     );
     public static final Block PALM_WOOD = registerBlockOnly(
-            "palm_block",
+            "palm_wood",
             PillarBlock::new,
             AbstractBlock.Settings.copy(Blocks.JUNGLE_WOOD)
     );
@@ -106,8 +106,8 @@ public class BlockRegistry {
             PillarBlock::new,
             AbstractBlock.Settings.copy(Blocks.JUNGLE_LEAVES)
     );
-    public static final Block PALM_PLANK = registerBlockOnly(
-            "palm_plank",
+    public static final Block PALM_PLANKS = registerBlockOnly(
+            "palm_planks",
             PillarBlock::new,
             AbstractBlock.Settings.copy(Blocks.JUNGLE_PLANKS)
     );

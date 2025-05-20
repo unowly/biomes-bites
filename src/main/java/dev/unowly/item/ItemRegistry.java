@@ -136,12 +136,12 @@ public static final Item AVOCADO = register("avocado",
             settings -> new BlockItem(BlockRegistry.PALM_WOOD, settings)
     );
     public static final Item STRIPPED_PALM_WOOD = register(
-            "stripped_palm_wood",
+            "stripped_palm_wood.json",
             settings -> new BlockItem(BlockRegistry.STRIPPED_PALM_WOOD, settings)
     );
     public static final Item PALM_PLANKS = register(
             "palm_planks",
-            settings -> new BlockItem(BlockRegistry.PALM_PLANK, settings)
+            settings -> new BlockItem(BlockRegistry.PALM_PLANKS, settings)
     );
     public static final Item PALM_LEAVES = register(
             "palm_leaves",

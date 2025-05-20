@@ -38,7 +38,7 @@ public class BotaniaBites implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(BlockRegistry.PALM_WOOD, 5,5);
 		FlammableBlockRegistry.getDefaultInstance().add(BlockRegistry.STRIPPED_PALM_WOOD, 5,5);
 		FlammableBlockRegistry.getDefaultInstance().add(BlockRegistry.PALM_LEAVES, 30,60);
-		FlammableBlockRegistry.getDefaultInstance().add(BlockRegistry.PALM_PLANK, 5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(BlockRegistry.PALM_PLANKS, 5,20);
 	}
 
 	public static Identifier id(String path) {
