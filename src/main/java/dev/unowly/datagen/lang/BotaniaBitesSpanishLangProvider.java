@@ -37,5 +37,13 @@ public class BotaniaBitesSpanishLangProvider extends FabricLanguageProvider {
         translationBuilder.add("tag.item.botania-bites.botania_bites_crops", "Botania & Bites Cultivos");
         translationBuilder.add("tag.item.botania-bites.botania_bites_berries", "Botania & Bites Bayas");
 
+        translationBuilder.add("item.botania-bites.palm_log", "Tronco de palma");
+        translationBuilder.add("item.botania-bites.stripped_palm_log", "Tronco de palma pelado");
+        translationBuilder.add("item.botania-bites.palm_wood", "Madera de palma");
+        translationBuilder.add("item.botania-bites.stripped_palm_wood", "Madera de palma pelada");
+        translationBuilder.add("item.botania-bites.palm_leaves", "Hojas de palma");
+        translationBuilder.add("item.botania-bites.palm_planks", "Tablones de palma");
+        translationBuilder.add("item.botania-bites.palm_sapling", "Brote de palma");
+
     }
 }

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:bread",
+    "botania-bites:lettuce",
+    "botania-bites:tomato"
+  ],
+  "result": {
+    "count": 1,
+    "id": "botania-bites:sandwich"
+  }
+}

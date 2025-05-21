@@ -45,6 +45,15 @@ public class BotaniaBitesLootTableProvider extends FabricBlockLootTableProvider 
         addDrop(BlockRegistry.RICE_CROP, createCropLootTable(
                 BlockRegistry.RICE_CROP, ItemRegistry.RICE, ItemRegistry.RICE_SEEDS, RiceCropBlock.AGE));
 
+        //Palm Drops
+        addDrop(BlockRegistry.PALM_LOG);
+        addDrop(BlockRegistry.STRIPPED_PALM_LOG);
+        addDrop(BlockRegistry.PALM_WOOD);
+        addDrop(BlockRegistry.STRIPPED_PALM_WOOD);
+        addDrop(BlockRegistry.PALM_PLANKS);
+        addDrop(BlockRegistry.PALM_SAPLING);
+        addDrop(BlockRegistry.PALM_LEAVES, leavesDrops(BlockRegistry.PALM_LEAVES,BlockRegistry.PALM_SAPLING, 0.0625F));
+
     }
 
     private LootTable.Builder createCropLootTable(Block cropBlock, Item cropItem, Item seedItem, IntProperty ageProperty) {

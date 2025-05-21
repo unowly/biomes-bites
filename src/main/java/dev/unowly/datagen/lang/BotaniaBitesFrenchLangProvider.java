@@ -37,6 +37,15 @@ public class BotaniaBitesFrenchLangProvider extends FabricLanguageProvider {
         translationBuilder.add("tag.item.botania-bites.botania_bites_crops", "Botania & Bites Récoltes");
         translationBuilder.add("tag.item.botania-bites.botania_bites_berries", "Botania & Bites Baies");
 
+        translationBuilder.add("item.botania-bites.palm_log", "Tronc de palmier");
+        translationBuilder.add("item.botania-bites.stripped_palm_log", "Tronc de palmier écorcé");
+        translationBuilder.add("item.botania-bites.palm_wood", "Bois de palmier");
+        translationBuilder.add("item.botania-bites.stripped_palm_wood", "Bois de palmier écorcé");
+        translationBuilder.add("item.botania-bites.palm_leaves", "Feuilles de palmier");
+        translationBuilder.add("item.botania-bites.palm_planks", "Planches de palmier");
+        translationBuilder.add("item.botania-bites.palm_sapling", "Pousse de palmier");
+
+
     }
 }
 

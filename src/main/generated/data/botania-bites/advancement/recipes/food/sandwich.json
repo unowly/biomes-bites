@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bread": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bread"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_lettuce": {
+      "conditions": {
+        "items": [
+          {
+            "items": "botania-bites:lettuce"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "botania-bites:sandwich"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tomato": {
+      "conditions": {
+        "items": [
+          {
+            "items": "botania-bites:tomato"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_bread",
+      "has_lettuce",
+      "has_tomato"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "botania-bites:sandwich"
+    ]
+  }
+}

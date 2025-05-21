@@ -1,12 +1,14 @@
 package dev.unowly.datagen.tags;
 
 import dev.unowly.BotaniaBites;
+import dev.unowly.block.BlockRegistry;
 import dev.unowly.item.ItemRegistry;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.item.Item;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.registry.tag.ItemTags;
 import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
 
@@ -53,5 +55,8 @@ public class BotaniaBitesItemTagProvider extends FabricTagProvider<Item> {
                 .add(ItemRegistry.CORN_SEEDS)
                 .add(ItemRegistry.LEEK_SEEDS)
                 .add(ItemRegistry.LETTUCE_SEEDS);
+
+        getOrCreateTagBuilder(ItemTags.PLANKS)              //already gets basics Crafting recepies which are not bound to a specific type of plank
+                .add(BlockRegistry.PALM_PLANKS.asItem());
     }
 }
