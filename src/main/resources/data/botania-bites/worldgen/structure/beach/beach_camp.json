@@ -3,7 +3,7 @@
   "start_pool": "botania-bites:beach/beach_camp_pool",
   "size": 1,
   "start_height": {
-    "absolute": 2
+    "absolute": 0
   },
   "use_expansion_hack": false,
   "biomes": "minecraft:beach",

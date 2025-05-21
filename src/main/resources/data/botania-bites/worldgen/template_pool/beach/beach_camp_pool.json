@@ -9,6 +9,24 @@
         "projection": "rigid",
         "processors": "minecraft:empty"
       }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "botania-bites:beach/beach_camp2",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "botania-bites:beach/beach_camp3",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
     }
   ]
 }
