@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "botania-bites:forest/fallen_oak_log",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 3,
+    "separation": 2,
+    "salt": 123456789
+  }
+}
